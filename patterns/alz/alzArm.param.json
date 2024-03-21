@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "PSP-Subscriptions"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "PSP-Subscriptions"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "PSP-Subscriptions"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "PSP-Subscriptions"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "PSP-Subscriptions"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "PSP-Subscriptions"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -39,27 +39,27 @@
       "value": "Yes"
     },
     "telemetryOptOut": {
-      "value": "No"
+      "value": "Yes"
     },
     "policyAssignmentParametersCommon": {
       "value": {
         "ALZMonitorResourceGroupName": {
-          "value": "rg-amba-monitoring-001"
+          "value": "RG-MCA-Alerting"
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
-            "Project": "amba-monitoring"
+            "Project": "MCAManaged"
           }
         },
         "ALZMonitorResourceGroupLocation": {
-          "value": "eastus"
+          "value": "westeurope"
         }
       }
     },
     "policyAssignmentParametersNotificationAssets": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": "action@mail.com"
+          "value": "robert.prust@wortell.nl"
         },
         "ALZLogicappResourceId": {
           "value": ""
@@ -74,7 +74,7 @@
           "value": ""
         },
         "ALZWebhookServiceUri": {
-          "value": ""
+          "value": "https://powershellpr0mpt.com/amba/api"
         },
         "ALZFunctionResourceId": {
           "value": ""

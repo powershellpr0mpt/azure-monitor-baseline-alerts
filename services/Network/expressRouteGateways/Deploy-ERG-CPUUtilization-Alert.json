@@ -128,6 +128,14 @@
           {
             "field": "[[concat('tags[', parameters('MonitorDisable'), ']')]",
             "notEquals": "true"
+          },
+          {
+            "field": "tags['MCA-Managed']",
+            "exists": "true"
+          },
+          {
+            "field": "tags['MCA-Managed']",
+            "equals": "1"
           }
         ]
       },

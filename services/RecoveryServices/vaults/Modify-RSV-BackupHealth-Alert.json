@@ -53,6 +53,14 @@
           {
             "field": "Microsoft.RecoveryServices/vaults/monitoringSettings.azureMonitorAlertSettings.alertsForAllJobFailures",
             "notEquals": "Enabled"
+          },
+          {
+            "field": "tags['MCA-Managed']",
+            "exists": "true"
+          },
+          {
+            "field": "tags['MCA-Managed']",
+            "equals": "1"
           }
         ]
       },
