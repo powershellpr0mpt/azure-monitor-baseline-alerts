@@ -48,7 +48,7 @@
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
-            "Project": "MCAManaged"
+            "Project": "MCA-Managed"
           }
         },
         "ALZMonitorResourceGroupLocation": {
@@ -59,7 +59,11 @@
     "policyAssignmentParametersNotificationAssets": {
       "value": {
         "ALZMonitorActionGroupEmail": {
+<<<<<<< HEAD
           "value": "robert.prust@wortell.nl"
+=======
+          "value": ""
+>>>>>>> 4b836ae051776a8c3fcd33663ada40b7696e72f0
         },
         "ALZLogicappResourceId": {
           "value": ""
